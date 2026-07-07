@@ -269,3 +269,32 @@ body {
     cursor: pointer;
 
 }
+
+/* Postagens Relacionadas */
+
+.relacionados {
+    border-top: 3px solid var(--cor-texto);
+    padding: 32px;
+}
+
+.relacionados h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.relacionados .grade {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.cartao {
+    background-color: var(--cor-card);
+    padding: 18px;
+    border-radius: var(--raio);
+}
+
+.cartao h3 {
+    font-size: 17px;
+    margin-top: 10px;
+}
