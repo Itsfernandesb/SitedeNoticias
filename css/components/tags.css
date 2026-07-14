@@ -1,0 +1,29 @@
+
+.categoria {
+    display: inline-block;
+    background: var(--cor-destaque);
+    color: #fff;
+    font-family: var(--fonte-interface);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 4px 10px;
+    border-radius: 3px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 32px;
+}
+
+.tag {
+    font-family: var(--fonte-interface);
+    font-size: 13px;
+    background: #f0efee;
+    color: var(--cor-texto);
+    padding: 6px 12px;
+    border-radius: 16px;
+    text-decoration: none;
+}

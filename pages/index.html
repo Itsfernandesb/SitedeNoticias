@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diário Gaúcho</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/components/site-header.js" defer></script>
+    <script src="../js/components/news-card.js" defer></script>
+    <script src="../js/components/site-footer.js" defer></script>
+
+</head>
+<body>
+    <site-header></site-header>
+
+    <div class="conteudo">
+        <main class="principal">
+            <article class="cartao card--destaque">
+                <span class="categoria">Copa 2026</span>
+                <h1 class="cartao__titulo">
+                    Copa do Mundo 2026!
+                </h1>
+                <p class="cartao__resumo">
+                    Com data marcada para final em 19 de Julho de 2026, torcedores estão animados pelo resultado.
+                </p>
+            </article>
+
+            <section class="grade-noticias">
+                <news-card
+                categoria="Economia"
+                titulo="Dólar despenca e volta a ser R$4" resumo="A desvalorização do dólar impulsionou o 
+                uso de aplicativos de e-commerce internacional pelos brasileiros."></news-card>
+
+                <news-card 
+                categoria="Política"
+                titulo="Quem ganhará as Eleições para presidência de 2026?"
+                resumo="Desde a última eleição presidencial em 2022, o povo brasileiro tem se mostrado dividido, como apontam pesquisas do Datafolha de Maio de 2026."></news-card>
+
+
+                <news-card
+                categoria="Esportes"
+                titulo="Gauchão 2026: Final histórica de GreNal" resumo="Após muitos anos sem GreNal em finais, no dia 8 de novembro de 2026 o Beira-Rio recebe o 
+                clássico tão aguardado pelos torcedores."></news-card>
+
+                <news-card
+                categoria="Famosos"
+                titulo="Globo retira Virgínia Fonseca da cobertura da Copa do Mundo 2026"
+                resumo="Virgínia Fonseca teria sido retirada 
+                da cobertura da Copa do Mundo no Domingão com o Huck,da TV Globo, após críticas do público e da imprensa."></news-card>
+
+            </section>
+        </main>
+    
+        <aside class="menu-lateral">
+            <div class="caixa">
+            <h3>Mais lidas</h3>
+                <ol>
+                    <li>Uma cidade com 800 habitantes procura
+                    moradores: ela oferece terrenos gratuitos,
+                    serviços instalados e auxílio financeiro</li>
+                    <li>Gravidíssima! Sabrina Sato exibe pela
+                    primeira vez a barriga de grávida e recebe
+                    elogios na web</li>
+                    <li>INSS aposenta esses trabalhadores antes dos
+                    60? Veja regra de 2026</li>
+                    <li>Resultado da Mega-Sena: 6 números sorteados;
+                    veja dezenas de hoje</li>
+                </ol>
+            </div>
+        </aside>
+    </div>
+
+    <site-footer></site-footer>
+</body>
+</html>
