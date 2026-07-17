@@ -1,0 +1,54 @@
+.principal-form {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.form {
+    background-color: var(--cor-card);
+    padding: 32px;
+    width: 100%;
+    max-width: 440px;
+    border-radius: var(--raio);
+}
+
+.form label {
+    font-size: 14px;
+    color: (--cor-texto);
+    margin: 14px 0 4px;
+    display: block;
+}
+
+.form input {
+    width: 100%;
+    font-size: var(--fonte-corpo);
+    padding: 10px;
+    border: 1px solid var(--cor-suave);
+    border-radius: var(--raio);
+}
+
+.rodape-form {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.form .btn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: var(--raio);
+    font-family: var(--fonte-interface);
+    font-size: 13px;
+    padding: 8px 14px;
+    border: 1px solid var(--cor-texto);
+    background: none;
+    cursor: pointer;
+    background-color: var(--cor-destaque);
+}
+
+.form input:focus{
+    outline: none;
+    border-color: var(--cor-destaque);
+}
+
