@@ -1,11 +1,16 @@
 .btn {
-   
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 8px 18px;
+
     font-family: var(--fonte-interface);
-    font-size: 13px;
-    padding: 8px 14px;
-    border: 1px solid var(--cor-texto);
-    background: none;
-    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 400;
+
+    border-radius: 999px;
+    text-decoration: none;
     cursor: pointer;
 }
 
@@ -13,4 +18,8 @@
     background-color: var(--cor-destaque);
     color: #fff;
     border: none;
+}
+
+.btn--primary:hover {
+    color: #fff;
 }

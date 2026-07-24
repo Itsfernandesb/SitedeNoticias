@@ -2,33 +2,42 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     padding: 14px 0;
+
     border-bottom: 4px solid var(--cor-texto);
-    background-color: var(--cor-fundo);
-    position: sticky;
-    top: 0;
-    z-index: 10;
 }
 
-.logo {
+
+.cabecalho__acoes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo a {
     font-size: 26px;
     font-weight: bold;
     color: var(--cor-destaque);
-    text-decoration: none;   
+    text-decoration: none;
+}
+
+.logo a:hover,
+.logo a:visited {
+    color: var(--cor-destaque);
 }
 
 .navegacao {
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 
 .navegacao a {
-    font-family: var(--fonte-interface);
-    font-size: 15px;
     color: var(--cor-texto);
     text-decoration: none;
 }
 
-.navegacao a:hover {
+.navegacao a:not(.btn):hover {
     color: var(--cor-destaque);
 }

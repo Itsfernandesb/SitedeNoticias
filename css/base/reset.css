@@ -18,4 +18,9 @@ img {
     max-width: 100%; display: block; 
 }
 
-site-header, site-footer, news-card { display: block; }
+button {
+    font: inherit;
+    background: none;
+    border: none;
+    color: inherit;
+}
