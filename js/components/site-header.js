@@ -11,7 +11,7 @@ class SiteHeader extends HTMLElement {
                 </div>
 
                 <nav class="navegacao">
-                    <a href="#">Política</a>
+                    <a href="../pages/materia.html">Política</a>
                     <a href="#">Esportes</a>
                     <a href="#">Economia</a>
                     <a href="#">Famosos</a>

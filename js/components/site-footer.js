@@ -9,7 +9,7 @@ class SiteFooter extends HTMLElement {
             <div class="coluna">
                 <h4>Editoriais</h4>
                 <a href="#">Economia</a>
-                <a href="#">Política</a>
+                <a href="../pages/materia.html"">Política</a>
                 <a href="#">Esportes</a>
                 <a href="#">Famosos</a>
             </div>
