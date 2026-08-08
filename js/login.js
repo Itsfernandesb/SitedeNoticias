@@ -17,7 +17,7 @@ form.addEventListener('submit', (evento) => {
 
         alert(`Bem-vindo, ${usuario.email}`);
 
-        window.location.href = "../../pages/index.html";
+        window.location.href = "../index.html";
 
     } catch (erro) {
         aviso.textContent = erro.message;

@@ -7,7 +7,7 @@ class SiteHeader extends HTMLElement {
         this.innerHTML = `
             <header class="cabecalho">
                 <div class="logo">
-                    <a href="../pages/index.html">Diário Gaúcho</a>
+                    <a href="./index.html">Diário Gaúcho</a>
                 </div>
 
                 <nav class="navegacao">
@@ -44,7 +44,7 @@ class SiteHeader extends HTMLElement {
 
                 localStorage.removeItem("usuarioLogado");
 
-                window.location.href = "../pages/index.html";
+                window.location.href = "./index.html";
             });
         }
     }
